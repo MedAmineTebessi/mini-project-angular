@@ -1,0 +1,28 @@
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-5" style="font-weight: bold;">
+        <img src="../../../assets/images/Logo/logo1.png" alt="ClassicArtClub Logo" height="30" class="d-inline-block align-top me-2">
+      </a>
+      <a class="navbar-brand ms-5" style="font-weight: bold;">ClassicArtClub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/front-office']">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/aboutus']">About us</a></li>
+         
+        </ul>
+        <div>
+          <span class="navbar-text text-light me-5" style="font-weight: bold;">Username : {{ UserUsername.toUpperCase() }}</span>
+        </div>
+      </div>
+      <button mat-button color="warn" class="logout-button" (click)="logout()">
+        <mat-icon>exit_to_app</mat-icon>
+      </button>
+    </div>
+</nav>
+  

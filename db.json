@@ -1,0 +1,90 @@
+{
+  "evennement": [
+    {
+      "nom": "Exposition",
+      "photo": "https://cdn.sortiraparis.com/images/1001/101066/844922-faith-ringgold-l-art-engage-et-feministe-dans-une-exposition-au-musee-picasso-nos-photos.jpg",
+      "prix": 120,
+      "date": "2023-12-22",
+      "estvalide": true,
+      "id": 3
+    },
+    {
+      "nom": "Concert Musique Classique",
+      "photo": "https://media2.ledevoir.com/images_galerie/nwd_858117_683394/image.jpg",
+      "prix": 200,
+      "date": "2023-12-20",
+      "estvalide": true,
+      "id": 4
+    },
+    {
+      "nom": "Soirée Opera caritative au profit des enfants de Palestine",
+      "photo": "https://www.jetdencre.ch/wp-content/uploads/2014/07/Untitled1.png",
+      "prix": 40,
+      "date": "2023-12-27",
+      "estvalide": true,
+      "id": 5
+    },
+    {
+      "nom": "Atelier de reproduction artistique",
+      "photo": "https://atelierpromethee.com/wp-content/uploads/2016/05/edition.jpg",
+      "prix": 120,
+      "date": "2023-12-20",
+      "estvalide": true,
+      "id": 6
+    },
+    {
+      "nom": "Conférences sur l'histoire de l'art classique",
+      "photo": "https://www.radiofrance.fr/s3/cruiser-production/2023/08/950b31be-1cf6-4a01-a1cf-70c17e9b1a32/1200x680_sc_rmn.jpg",
+      "prix": 15,
+      "date": "2023-12-31",
+      "estvalide": true,
+      "id": 7
+    },
+    {
+      "nom": "Soirée cinéma artistique",
+      "photo": "https://thumbs.dreamstime.com/z/calibre-d-affiche-de-minimalistic-pour-la-soir%C3%A9e-cin%C3%A9ma-art-et-essai-avec-l-appareil-photo-film-se-tenant-sur-le-tr%C3%A9pied-lampe-99735596.jpg",
+      "prix": 35,
+      "date": "2024-01-03",
+      "estvalide": true,
+      "id": 8
+    },
+    {
+      "nom": "Atelier de dessin en plein air",
+      "photo": "https://lesatelierscreatifsnet.files.wordpress.com/2018/10/img_2169.jpg",
+      "prix": 20,
+      "date": "2024-01-06",
+      "estvalide": true,
+      "id": 9
+    },
+    {
+      "nom": "Atelier de sculpture classique",
+      "photo": "https://atelierpromethee.com/wp-content/uploads/2016/03/moulage-dart-e1467907456254.jpg",
+      "prix": 270,
+      "date": "2024-01-08",
+      "estvalide": true,
+      "id": 10
+    },
+    {
+      "nom": "Journée portes ouvertes",
+      "photo": "https://p4.storage.canalblog.com/44/96/235353/112645405_o.jpg",
+      "prix": 100,
+      "date": "2024-01-01",
+      "estvalide": true,
+      "id": 11
+    }
+  ],
+  "user": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "username": "Amine",
+      "password": "Amine",
+      "role": "user",
+      "id": 3
+    }
+  ]
+}
